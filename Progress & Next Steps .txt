@@ -1,0 +1,60 @@
+2026-04-27
+Today I will make the IAM role for this project
+I will use PoLP by only giving the IAM role what it needs for the project, which consists of the following
+
+------------------------------------------------------
+
+EC2 Permissions
+
+	ec2:CreateLaunchTemplate
+	ec2:DescribeLaunchTemplates
+	ec2:ModifyLaunchTemplate
+	ec2:RunInstances
+	ec2:TerminateInstances
+	ec2:DescribeInstances
+	ec2:DescribeInstanceStatus
+	ec2:CreateSecurityGroup
+	ec2:AuthorizeSecurityGroupIngress
+	ec2:DescribeSecurityGroups
+	ec2:CreateTags
+	ec2:DescribeTags
+
+Auto Scaling Permissions
+	autoscaling:CreateAutoScalingGroup
+	autoscaling:UpdateAutoScalingGroup
+	autoscaling:DescribeAutoScalingGroups
+
+VPC / Networking Permissions
+	ec2:CreateVpc
+	ec2:DescribeVpcs
+	ec2:CreateSubnet
+	ec2:DescribeSubnets
+	ec2:CreateInternetGateway
+	ec2:AttachInternetGateway
+	ec2:DescribeInternetGateways
+	ec2:CreateRouteTable
+	ec2:CreateRoute
+	ec2:AssociateRouteTable
+	ec2:DescribeRouteTables
+
+Load Balancing (ALB) Permissions
+	elasticloadbalancing:CreateLoadBalancer
+	elasticloadbalancing:DescribeLoadBalancers
+	elasticloadbalancing:CreateListener
+	elasticloadbalancing:DescribeListeners
+	elasticloadbalancing:CreateTargetGroup
+	elasticloadbalancing:RegisterTargets
+	elasticloadbalancing:DescribeTargetGroups
+	elasticloadbalancing:ModifyTargetGroup
+
+IAM Permissions
+	iam:PassRole
+
+------------------------------------------------------
+
+I created the IAM JSON in IAM_POLICY_AUTO_SCALING.txt
+I also created the GitHub Repo for this project and init it
+
+NEXT STEPS
+
+Create the Auto-Scaling Main Part
