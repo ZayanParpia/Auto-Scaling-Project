@@ -57,4 +57,18 @@ I also created the GitHub Repo for this project and init it
 
 NEXT STEPS
 
-Create the Auto-Scaling Main Part
+Create the Main Auto-Scaling Feature✅
+
+Create Outline.txt ✅
+
+
+__________________________
+
+2026-04-28
+Today I created the VPC, SG, IGW, ALB, TG, and refined the IAM policy for my Account.
+
+Next Steps
+
+Design the Launch Template 
+
+__________________________
