@@ -57,9 +57,9 @@ I also created the GitHub Repo for this project and init it
 
 NEXT STEPS
 
-Create the Main Auto-Scaling Feature✅
+Create the Main Auto-Scaling Feature
 
-Create Outline.txt ✅
+Create Outline.txt 
 
 
 __________________________
@@ -69,6 +69,21 @@ Today I created the VPC, SG, IGW, ALB, TG, and refined the IAM policy for my Acc
 
 Next Steps
 
-Design the Launch Template 
+Design the Launch Template, create working ALB and create working Auto Scale group 
 
 __________________________
+
+2026/04/29
+Today I created the Launch Template, Created the working ALB and created the Auto Scale Group.
+
+Next 
+Test Auto Scaling to see if it works as intended 
+Create SSM login to EC2 Instances by creating SSM role for Launch Template 
+
+2026-04-30
+
+Tested Auto Scaling to see if it works as intended ✅
+Create SSM login to EC2 Instances by creating SSM role for Launch Template ✅
+
+NEXT STEPS
+(EDIT THIS LATER)
